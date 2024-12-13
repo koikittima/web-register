@@ -29,7 +29,7 @@ const RegisterAdminTable = (props) => {
       </Column>
 
       <Column minWidth={150} flexGrow={1} sortable>
-        <HeaderCell>เบอร์โทร</HeaderCell>
+        <HeaderCell>เบอร์โทรศัพท์</HeaderCell>
         <Cell dataKey="phone" />
       </Column>
 
