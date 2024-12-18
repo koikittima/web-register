@@ -190,7 +190,7 @@ const Home = () => {
           </Form>
         </div>
 
-        {user?.user_name === 'admin' ? (
+        {user?.rowAction === 'admin' ? (
           <RegisterAdminTable
             filteredData={filteredDataUsers}
             loading={loadingTable}
